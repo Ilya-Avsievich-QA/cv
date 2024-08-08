@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Middle Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFE0;
+        }
+        .header {
+            background-color: #9370DB;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-img {
+            display: block;
+            max-width: 150px;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        .intro {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .intro h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .intro p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .skills, .contact {
+            margin-top: 40px;
+        }
+        .skills h2, .contact h2 {
+            text-align: center;
+            color: #333;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background-color: #e0e0e0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: beige;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>QA Middle Визитка</h1>
+    </div>
+    <div class="container">
+        <img src="photo_2024-06-27_17-32-19.png" alt="Profile Image" class="profile-img">
+        <div class="intro">
+            <h1>Илья Авсиевич</h1>
+            <p>QA Middle с опытом в тестировании веб-приложений и мобильных приложений.</p>
+        </div>
+        <div class="skills">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Ручное тестирование</li>
+                <li>Автоматизация тестирования</li>
+                <li>Тестирование веб-приложений</li>
+                <li>Тестирование мобильных приложений</li>
+                <li>Работа с баг-трекинговыми системами</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Контакты</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
